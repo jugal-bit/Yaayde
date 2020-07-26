@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/applogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OptionActivity"></activity>
+        <activity android:name=".TeacherLogin"></activity>
+        <activity android:name=".OptionActivity" />
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"
