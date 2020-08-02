@@ -16,4 +16,52 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/sdimg" />
+
+    <Button
+        android:id="@+id/allc"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:background="@drawable/allc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <Button
+        android:id="@+id/pr"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:background="@drawable/pr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.60"
+        app:layout_constraintStart_toEndOf="@+id/allc"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <Button
+        android:id="@+id/ec"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:background="@drawable/ec"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/allc"
+        app:layout_constraintVertical_bias="0.20" />
+
+    <Button
+        android:id="@+id/notify"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:background="@drawable/notify"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.60"
+        app:layout_constraintStart_toEndOf="@+id/ec"
+        app:layout_constraintTop_toBottomOf="@+id/pr"
+        app:layout_constraintVertical_bias="0.20" />
 </androidx.constraintlayout.widget.ConstraintLayout>
