@@ -6,11 +6,62 @@
     android:layout_height="match_parent"
     tools:context=".TeacherActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="79dp" />
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="374dp"
+        android:layout_height="272dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/tdimg" />
+
+    <Button
+        android:id="@+id/adds"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:background="@drawable/adds"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <Button
+        android:id="@+id/alls"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:background="@drawable/alls"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.60"
+        app:layout_constraintStart_toEndOf="@+id/adds"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <Button
+        android:id="@+id/vm"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:background="@drawable/vm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adds"
+        app:layout_constraintVertical_bias="0.20" />
+
+    <Button
+        android:id="@+id/sm"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:background="@drawable/sm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.60"
+        app:layout_constraintStart_toEndOf="@+id/vm"
+        app:layout_constraintTop_toBottomOf="@+id/alls"
+        app:layout_constraintVertical_bias="0.20" />
 </androidx.constraintlayout.widget.ConstraintLayout>
