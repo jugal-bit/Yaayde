@@ -20,6 +20,7 @@ Button TL,SL;
             public void onClick(View v) {
                 Intent intent=new Intent(OptionActivity.this,TeacherLogin.class);
                 startActivity(intent);
+                finish();
 
             }
         });
@@ -28,6 +29,7 @@ Button TL,SL;
             public void onClick(View v) {
                 Intent intent=new Intent(OptionActivity.this,StudentLogin.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
