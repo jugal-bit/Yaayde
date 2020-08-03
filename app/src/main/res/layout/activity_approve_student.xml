@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_approve_students"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D81B60"
+    tools:context=".ApproveStudent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#D81B60"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:text="Approve Student"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+            <TextView
+                android:id="@+id/tname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="User name goes here"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tterm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Term"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/term"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Term goes here"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/troll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/roll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="User roll goes here"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/apply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#8E24AA"
+                android:text="Approve"
+                android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

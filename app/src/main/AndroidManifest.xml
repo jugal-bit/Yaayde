@@ -15,7 +15,9 @@
         android:roundIcon="@drawable/applogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TeacherActivity"></activity>
+        <activity android:name=".ApproveStudent"></activity>
+        <activity android:name=".AddStudent" />
+        <activity android:name=".TeacherActivity" />
         <activity android:name=".StudentActivity" />
         <activity android:name=".TeacherRegister" />
         <activity android:name=".StudentRegister" />
